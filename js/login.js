@@ -18,11 +18,6 @@ function validarEdad(edad) {
   }
   
   mostrarMensaje();
-
-  function mostrarPuntoEquilibrio() {
-    const puntoEquilibrio = calcularPuntoEquilibrio(costosFijos, precioDeVenta, costosVariables);
-    alert(`El Punto de equilibrio es: ${puntoEquilibrio}`);
-  }
   
   function reiniciarPagina() {
     window.location.reload();
